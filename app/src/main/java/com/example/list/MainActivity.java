@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         String [] formulas = {"Амортизационные отчисления", "Фондоотдача",
                 "Фондоемкость", "Фондовооруженность", "Среднегодовая стоимость основных средств",
         "Норматив оборотных средств", "Оборачиваемость", "Коэффициент загрузки", "Трудоемкость",
-        "Выработка"}; // список формул
+        "Выработка"};
 
         ListView listView = findViewById(R.id.list);
         TextView selection = findViewById(R.id.selection);
