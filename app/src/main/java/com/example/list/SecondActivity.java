@@ -13,7 +13,9 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        WebView textView = findViewById(R.id.textView);
-        textView.loadUrl("C://Users//acer//AndroidStudioProjects//List//appsrc//main//res//formulas"+ getIntent().getStringExtra("key"));
+        WebView webView = findViewById(R.id.textView);
+        webView.loadUrl("file:///android_asset/" + getIntent().getStringExtra("key"));
+        webView.getSettings().setAllowContentAccess(true);
+        webView.getSettings().setAllowFileAccess(true);
     }
 }

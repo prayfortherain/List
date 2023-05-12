@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String [] formulas = {"Рассчет амортизационных отчислений", "Фондоотдача",
+        String [] formulas = {"Амортизационные отчисления", "Фондоотдача",
                 "Фондоемкость", "Фондовооруженность", "Среднегодовая стоимость основных средств",
         "Норматив оборотных средств", "Оборачиваемость", "Коэффициент загрузки", "Трудоемкость",
         "Выработка"}; // список формул
